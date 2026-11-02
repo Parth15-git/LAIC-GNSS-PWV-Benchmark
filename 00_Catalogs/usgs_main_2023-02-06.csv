@@ -1,0 +1,6 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2023-02-06T01:17:34.342Z,37.2256,37.0143,10,7.8,mww,266,17,0.165,0.66,us,us6000jllz,2026-04-13T23:32:30.032Z,"Pazarcik earthquake, Kahramanmaras earthquake sequence",earthquake,5.23,1.784,0.05,38,reviewed,us,us
+2023-02-06T01:28:15.784Z,37.1893,36.8929,9.797,6.7,mww,194,19,0.254,0.68,us,us6000jlm1,2025-09-03T20:02:03.110Z,"14 km E of Nurda??, Turkey",earthquake,7.68,3.333,0.098,10,reviewed,us,us
+2023-02-06T10:24:48.811Z,38.0106,37.1962,7.432,7.5,mww,111,29,0.73,0.7,us,us6000jlqa,2026-08-12T10:46:39.159Z,"Elbistan earthquake, Kahramanmaras earthquake sequence",earthquake,5.09,3.709,0.041,58,reviewed,us,us
+2023-02-06T10:26:46.742Z,38.0315,38.0984,10,6,mb,65,63,1.111,0.88,us,us6000jm1y,2025-09-03T20:02:48.163Z,"12 km W of Çelikhan, Turkey",earthquake,4.28,1.605,0.081,57,reviewed,us,us
+2023-02-06T12:02:11.275Z,38.0582,36.5114,8.516,6,mb,138,25,0.356,0.54,us,us6000jlrc,2025-09-25T19:51:56.268Z,"4 km NNE of Göksun, Turkey",earthquake,4.32,3.954,0.024,647,reviewed,us,us

@@ -1,0 +1,16 @@
+window_days,k_multiplier,CO_flag_days_full_period,PWV_flag_days_full_period,VTEC_flag_days_full_period,candidate_alert_days_full_period,candidate_alert_days_pre_event_window,any_candidate_alert_in_pre_event_window
+10,1.0,3,7,8,1,0,False
+10,1.25,2,6,4,0,0,False
+10,1.5,1,4,3,0,0,False
+10,1.75,1,3,1,0,0,False
+10,2.0,1,3,0,0,0,False
+15,1.0,4,8,7,2,0,False
+15,1.25,2,7,4,0,0,False
+15,1.5,1,5,1,0,0,False
+15,1.75,1,5,1,0,0,False
+15,2.0,1,5,0,0,0,False
+20,1.0,1,8,8,0,0,False
+20,1.25,1,7,1,0,0,False
+20,1.5,1,6,1,0,0,False
+20,1.75,1,6,1,0,0,False
+20,2.0,1,6,0,0,0,False

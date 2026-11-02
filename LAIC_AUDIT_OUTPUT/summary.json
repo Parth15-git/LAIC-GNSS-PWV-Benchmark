@@ -1,0 +1,252 @@
+{
+  "status": "completed_descriptive_audit",
+  "interpretation": "Exploratory retrospective single-event case study; not a validated prediction model.",
+  "event": {
+    "origin_time_utc": "2025-01-07 01:05:16",
+    "magnitude": 7.1,
+    "epicenter_latitude": 28.604,
+    "epicenter_longitude": 87.378,
+    "source": "USGS reviewed event page: https://earthquake.usgs.gov/earthquakes/eventpage/us6000pi9w/executive"
+  },
+  "analysis_period": {
+    "start": "2024-12-08",
+    "end": "2025-01-12",
+    "days": 36
+  },
+  "candidate_pre_event_window": {
+    "start": "2025-01-02",
+    "end": "2025-01-06",
+    "days": 5
+  },
+  "dobrovolsky_formula_radius_km": 1129.8,
+  "gas_data": {
+    "file_used": "04_Gas_S5P/multi_gas_s5p.csv (explicit path; s5p_co.csv intentionally not used)",
+    "rows": 36,
+    "date_start": "2024-12-08",
+    "date_end": "2025-01-12",
+    "interpolation_applied": false,
+    "pixel_counts_quality_flags_and_retrieval_errors_in_daily_csv": false,
+    "note": "This aggregated daily CSV cannot yield spatial 90th percentiles, per-day valid-pixel counts, QA-filter rates, or retrieval SNR. Obtain pixel-level product exports and metadata for those metrics."
+  },
+  "gas_quality": [
+    {
+      "variable": "CO",
+      "rows_in_36_day_window": 36,
+      "valid_daily_values": 36,
+      "valid_day_percent": 100.0,
+      "missing_daily_values": 0,
+      "negative_daily_values": 0,
+      "minimum": 0.0152884143320977,
+      "median": 0.017742042869958848,
+      "maximum": 0.0202868264540855,
+      "units_and_pixel_level_QA_available_in_this_CSV": false
+    },
+    {
+      "variable": "SO2",
+      "rows_in_36_day_window": 36,
+      "valid_daily_values": 36,
+      "valid_day_percent": 100.0,
+      "missing_daily_values": 0,
+      "negative_daily_values": 10,
+      "minimum": -8.615901657017152e-05,
+      "median": 1.9359765509659523e-05,
+      "maximum": 0.00010719978372656147,
+      "units_and_pixel_level_QA_available_in_this_CSV": false
+    },
+    {
+      "variable": "NO2",
+      "rows_in_36_day_window": 36,
+      "valid_daily_values": 36,
+      "valid_day_percent": 100.0,
+      "missing_daily_values": 0,
+      "negative_daily_values": 0,
+      "minimum": 4.059140992216154e-05,
+      "median": 4.6616372920210177e-05,
+      "maximum": 5.137776039553236e-05,
+      "units_and_pixel_level_QA_available_in_this_CSV": false
+    },
+    {
+      "variable": "CH4",
+      "rows_in_36_day_window": 36,
+      "valid_daily_values": 23,
+      "valid_day_percent": 63.89,
+      "missing_daily_values": 13,
+      "negative_daily_values": 0,
+      "minimum": 1856.7879665347125,
+      "median": 1892.5294031114056,
+      "maximum": 1917.4696346179603,
+      "units_and_pixel_level_QA_available_in_this_CSV": false
+    }
+  ],
+  "gnss_data": {
+    "archives": [
+      "IITK.2024.trop.zip",
+      "IITK.2025.trop.zip"
+    ],
+    "nested_daily_files_seen": 674,
+    "parsed_records_in_analysis_window": 9504,
+    "parse_errors_or_skipped_solution_rows": 0,
+    "nominal_samples_per_day": 288,
+    "minimum_samples_for_daily_mean": 216,
+    "missing_or_insufficient_coverage_dates": [
+      "2025-01-10",
+      "2025-01-11",
+      "2025-01-12"
+    ],
+    "station": "IITK"
+  },
+  "gnss_quality": [
+    {
+      "variable": "IITK_PWV_mm",
+      "daily_values_in_window": 33,
+      "window_days": 36,
+      "valid_day_percent": 91.67,
+      "minimum_daily_observations": 288,
+      "median_daily_observations": 288.0,
+      "maximum_daily_observations": 288,
+      "minimum_daily_PWV_mm": 5.014201388888889,
+      "median_daily_PWV_mm": 10.866805555555555,
+      "maximum_daily_PWV_mm": 28.66274305555556
+    }
+  ],
+  "omni_data": {
+    "files": [
+      "omni2_87AQOnb8Dw.lst"
+    ],
+    "hourly_rows_in_analysis_window": 864,
+    "daily_rows": 36,
+    "column_mapping_note": "Kp*10 code, Dst and F10.7 appear at the final three data columns; archive lacks a .fmt sidecar, so verify original OMNIWeb selection metadata before journal submission."
+  },
+  "ionex_data": {
+    "files_used": 36,
+    "maps_parsed_in_files_including_overlapping_midnights": 900,
+    "unique_map_epochs": 864,
+    "daily_rows": 36,
+    "within_window_map_epochs": 864,
+    "spatial_interpolation": "bilinear from CODE global ionosphere map (GIM); query latitudes converted approximately to geocentric latitude at 6821-km shell; not independent local/CORS observations",
+    "daily_summary": "maximum of the hourly interpolated GIM value, not an hourly-station measurement",
+    "coordinate_note": "The supplied CODE file describes a spherical shell radius of 6821 km and geocentric IONEX latitudes."
+  },
+  "primary_rule": "CO upper-bound flag within current/prior 1 day AND IITK daily GNSS PWV upper-bound flag within current/prior 1 day AND epicenter-coordinate daily-maximum CODE GIM VTEC upper-bound flag on current day AND Kp_max<3 AND Dst_min>-30 nT; trailing baseline W=15 days, k=1.5, no missing-value interpolation.",
+  "primary_candidate_alert_days_full_period": [],
+  "primary_candidate_alert_days_pre_event_window": 0,
+  "primary_any_candidate_alert_in_pre_event_window": false,
+  "pre_event_daily_component_status": [
+    {
+      "date": "2025-01-02 00:00:00",
+      "CO": 0.0177640441297836,
+      "CO_upper": 0.019693176331630542,
+      "CO_flag": false,
+      "PWV_mm": 11.587708333333333,
+      "PWV_upper": 34.58868055555556,
+      "PWV_flag": false,
+      "VTEC_epicenter_GIM_TECU": 75.93167197958425,
+      "VTEC_upper": 81.0060887253076,
+      "VTEC_flag": false,
+      "Kp_max": 4.7,
+      "Dst_min_nT": -128.0,
+      "Geomagnetic_Quiet": false,
+      "Primary_CO_PWV_GIM_candidate_alert": false
+    },
+    {
+      "date": "2025-01-03 00:00:00",
+      "CO": 0.0171126545068351,
+      "CO_upper": 0.019285600995476146,
+      "CO_flag": false,
+      "PWV_mm": 10.051493055555556,
+      "PWV_upper": 33.654644097222224,
+      "PWV_flag": false,
+      "VTEC_epicenter_GIM_TECU": 68.97993710284784,
+      "VTEC_upper": 87.61758349889357,
+      "VTEC_flag": false,
+      "Kp_max": 3.3,
+      "Dst_min_nT": -52.0,
+      "Geomagnetic_Quiet": false,
+      "Primary_CO_PWV_GIM_candidate_alert": false
+    },
+    {
+      "date": "2025-01-04 00:00:00",
+      "CO": 0.0187146119501448,
+      "CO_upper": 0.01891702308292412,
+      "CO_flag": false,
+      "PWV_mm": 9.837777777777779,
+      "PWV_upper": 33.92360243055556,
+      "PWV_flag": false,
+      "VTEC_epicenter_GIM_TECU": 91.03761313472069,
+      "VTEC_upper": 86.59734110707446,
+      "VTEC_flag": true,
+      "Kp_max": 5.3,
+      "Dst_min_nT": -92.0,
+      "Geomagnetic_Quiet": false,
+      "Primary_CO_PWV_GIM_candidate_alert": false
+    },
+    {
+      "date": "2025-01-05 00:00:00",
+      "CO": 0.0184463661871503,
+      "CO_upper": 0.01891702308292412,
+      "CO_flag": false,
+      "PWV_mm": 11.775069444444444,
+      "PWV_upper": 33.92360243055556,
+      "PWV_flag": false,
+      "VTEC_epicenter_GIM_TECU": 69.15605281149108,
+      "VTEC_upper": 87.36234066506175,
+      "VTEC_flag": false,
+      "Kp_max": 4.3,
+      "Dst_min_nT": -80.0,
+      "Geomagnetic_Quiet": false,
+      "Primary_CO_PWV_GIM_candidate_alert": false
+    },
+    {
+      "date": "2025-01-06 00:00:00",
+      "CO": 0.0160929900106753,
+      "CO_upper": 0.019110693529211145,
+      "CO_flag": false,
+      "PWV_mm": 15.335555555555556,
+      "PWV_upper": 32.77144097222223,
+      "PWV_flag": false,
+      "VTEC_epicenter_GIM_TECU": 81.56410481565689,
+      "VTEC_upper": 83.63400535429918,
+      "VTEC_flag": false,
+      "Kp_max": 3.7,
+      "Dst_min_nT": -43.0,
+      "Geomagnetic_Quiet": false,
+      "Primary_CO_PWV_GIM_candidate_alert": false
+    }
+  ],
+  "gim_point_pearson_correlations": {
+    "VTEC_epicenter_GIM_TECU": {
+      "VTEC_epicenter_GIM_TECU": 1.0,
+      "VTEC_Dhanbad_GIM_TECU": 0.9455262504280944,
+      "VTEC_control_point_GIM_TECU": 0.8847699489886516
+    },
+    "VTEC_Dhanbad_GIM_TECU": {
+      "VTEC_epicenter_GIM_TECU": 0.9455262504280944,
+      "VTEC_Dhanbad_GIM_TECU": 1.0,
+      "VTEC_control_point_GIM_TECU": 0.8356177804618807
+    },
+    "VTEC_control_point_GIM_TECU": {
+      "VTEC_epicenter_GIM_TECU": 0.8847699489886516,
+      "VTEC_Dhanbad_GIM_TECU": 0.8356177804618807,
+      "VTEC_control_point_GIM_TECU": 1.0
+    }
+  },
+  "null_test_summary": {
+    "analysis_days": 36,
+    "non_observed_shift_combinations": 1295,
+    "observed_alert_days_full_period": 0,
+    "observed_alert_days_pre_event_window": 0,
+    "fraction_null_shifts_with_any_pre_event_alert": 0.0,
+    "fraction_null_shifts_with_at_least_observed_full_period_count": 1.0,
+    "fraction_null_shifts_with_at_least_observed_pre_event_count": 1.0,
+    "interpretation": "Exploratory circular-shift diagnostic only; an observed zero-hit window yields a trivial p-like comparison and is not evidence of specificity."
+  },
+  "sensitivity_grid_rows": 15,
+  "limits": [
+    "The daily gas CSV lacks pixel-level quality flags, valid pixel counts, retrieval uncertainties, and source-product metadata.",
+    "Daily aggregation prevents calculation of a spatial 90th percentile from this CSV.",
+    "CODE GIM values at multiple coordinates are interpolated values from the same smoothed global product, not independent station observations.",
+    "The archive contains no Dhanbad RINEX processing; the Dhanbad coordinate series is not CORS validation.",
+    "No independent earthquake test cases or properly sampled quiet periods are included here.",
+    "The circular-shift result is a diagnostic under an exchangeability assumption and is not a causal significance test."
+  ]
+}

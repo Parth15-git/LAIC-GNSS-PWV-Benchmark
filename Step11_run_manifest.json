@@ -1,0 +1,436 @@
+{
+  "utc": "2026-10-31T22:20:38.111497",
+  "python": "3.14.3",
+  "numpy": "2.4.3",
+  "pandas": "3.0.1",
+  "config": {
+    "observable_primary": "GNSS-derived PWV (NGL WVAPOR, mm; NGL uses VMF1 weather-model inputs)",
+    "observable_secondary": "GNSS horizontal gradient magnitude G = sqrt(TGN^2 + TGE^2)",
+    "time_standard": "UTC days; a day needs >= 200 of 288 five-minute epochs",
+    "day_zero": "UTC calendar date of mainshock origin time; pre-event window = UTC days [-W, -1]",
+    "doy_half_window_days": 15,
+    "guard_days": 45,
+    "min_ref_values": 30,
+    "window_len": 10,
+    "min_valid_frac": 0.8,
+    "target_far": 0.05,
+    "primary_series": "Raw PWV",
+    "primary_calibration": "held_out_all",
+    "primary_direction": "one_sided_positive",
+    "held_out_exclusion_days": 180,
+    "season_half_width_days": 45,
+    "season_exclusion_days": 90,
+    "min_cal_windows": 30,
+    "quiet_buffer_days": 10,
+    "quiet_m_near": 5.5,
+    "quiet_r_near_km": 300.0,
+    "quiet_m_far": 6.5,
+    "quiet_r_far_km": 800.0,
+    "event_exclusion_days": 30,
+    "n_bootstrap": 1000,
+    "placebo_gate_pct": [
+      3.0,
+      7.0
+    ],
+    "boundary_gate_pct": 20.0,
+    "window_lengths_tested": [
+      7,
+      10,
+      14
+    ],
+    "target_fars_tested": [
+      0.02,
+      0.05,
+      0.1
+    ],
+    "min_corr_gnss_vs_era5_tcwv": 0.85,
+    "trop_base_url": "https://geodesy.unr.edu/gps_timeseries/trop",
+    "force_redownload": false,
+    "random_seed": 20261031,
+    "event_selection_status": "NOT YET APPLIED - see DEVIATIONS_AND_SELECTION_RULE.md",
+    "event_selection_proposed_rule": "USGS ComCat, Mw >= 7.1, depth <= 70 km, 2019-01-01..2025-03-31, >=1 NGL station within 750 km with >=8/10 valid pre-event days and >=30 quiet windows; include ALL events that pass"
+  },
+  "nga_provenance": [
+    {
+      "file": "TSK2.2021.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2395145,
+      "sha256": "9d7d5e59cd5ee2006ae6e372fde220e9825e6cb8885e54f0165307cad2a5d28f",
+      "utc": "2026-10-31T22:18:48.446083+00:00"
+    },
+    {
+      "file": "TSK2.2022.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2410845,
+      "sha256": "39a37331b6e3205f54bbd03c8818813227114bd543c2e142f6166da1bcae1418",
+      "utc": "2026-10-31T22:18:48.465685+00:00"
+    },
+    {
+      "file": "TSK2.2023.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2315587,
+      "sha256": "8b0b6d28c3db07181baf0ab7e5d8b264d87b9b91d946ec571b7446e6a702c61f",
+      "utc": "2026-10-31T22:18:48.492877+00:00"
+    },
+    {
+      "file": "TSK2.2024.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2417282,
+      "sha256": "f897dc3d395487071003a38bc296ff3f7d274f0e55fdcdc63e243b1a68a48677",
+      "utc": "2026-10-31T22:18:48.512051+00:00"
+    },
+    {
+      "file": "TSK2.2025.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2346478,
+      "sha256": "51307619be55c67553411f1e15921818229ebb47e6da55d7ee49f89d5c823870",
+      "utc": "2026-10-31T22:18:48.534847+00:00"
+    },
+    {
+      "file": "MIZU.2021.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2408340,
+      "sha256": "ba26e73ecc994895f775df8d9e85a7ce88abe6f41577d446dd7ec2234cb29f4a",
+      "utc": "2026-10-31T22:19:01.637877+00:00"
+    },
+    {
+      "file": "MIZU.2022.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2400602,
+      "sha256": "429d1ad6f26a62e16044a974cd536becc7f8703112d6ae02eb4a791fd602793e",
+      "utc": "2026-10-31T22:19:01.662238+00:00"
+    },
+    {
+      "file": "MIZU.2023.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2351058,
+      "sha256": "95e562e5f838987d859afa29a26c0ebf62d281941428954dcbd57272241473c0",
+      "utc": "2026-10-31T22:19:01.682764+00:00"
+    },
+    {
+      "file": "MIZU.2024.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2425223,
+      "sha256": "fb054a1f0e8d1941626d7562a764d560b0c5cc0ac14c83087421fd8d050fa089",
+      "utc": "2026-10-31T22:19:01.702469+00:00"
+    },
+    {
+      "file": "MIZU.2025.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2422974,
+      "sha256": "e60ed6df6ae8effa3b0d606379c0cfb96c771014a9480492362a5aeda6d2f3b6",
+      "utc": "2026-10-31T22:19:01.721747+00:00"
+    },
+    {
+      "file": "AIRA.2021.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2376968,
+      "sha256": "0ec107aca07c29524d6f065555708ea83b203c5ced841e2b872d95d8ecbb7168",
+      "utc": "2026-10-31T22:19:14.853170+00:00"
+    },
+    {
+      "file": "AIRA.2022.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2412490,
+      "sha256": "18cbbecb66fbc76e2e14456f9ac3b36a75a70ed125110c7b19a848d1aee2a0c8",
+      "utc": "2026-10-31T22:19:14.875489+00:00"
+    },
+    {
+      "file": "AIRA.2023.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2341861,
+      "sha256": "b260dc7a53a2cddb046f964aa87f582bb0a1e6cffe968ef85112fc4c49625ad3",
+      "utc": "2026-10-31T22:19:14.894214+00:00"
+    },
+    {
+      "file": "AIRA.2024.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2415039,
+      "sha256": "8382eb0be97991e6d2a4fe73a2a9812eec713c54ac7b6e6e8d01690acddcc286",
+      "utc": "2026-10-31T22:19:14.913479+00:00"
+    },
+    {
+      "file": "AIRA.2025.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2340897,
+      "sha256": "58529cb5c83c745e75dd56c7e63139b1ee7a59eebd1e38218af7c9fead3f9fba",
+      "utc": "2026-10-31T22:19:14.934094+00:00"
+    },
+    {
+      "file": "IITK.2021.trop.zip",
+      "origin": "HTTP_404_MISSING (https://geodesy.unr.edu/gps_timeseries/trop/IITK/IITK.2021.trop.zip)",
+      "bytes": 0,
+      "sha256": "NONE",
+      "utc": "2026-10-31T22:19:29.230463+00:00"
+    },
+    {
+      "file": "IITK.2022.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2142383,
+      "sha256": "b017dd61c69378af458dd501b25d620cb37e20391dc5c43aa4579164348707dd",
+      "utc": "2026-10-31T22:19:29.276692+00:00"
+    },
+    {
+      "file": "IITK.2023.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 1913423,
+      "sha256": "bdeb8e53bc61f3d4a62f215480c175f88097a6e80545d2deffbd8c3b874b2f2c",
+      "utc": "2026-10-31T22:19:29.301423+00:00"
+    },
+    {
+      "file": "IITK.2024.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2135797,
+      "sha256": "d49cc487e2970e24313d8614081da72bed3d0a65d225bf50881aaab66a88c27e",
+      "utc": "2026-10-31T22:19:29.325889+00:00"
+    },
+    {
+      "file": "IITK.2025.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2256048,
+      "sha256": "a3aaf3b165e815d0eb0eca7898baef7b8bfbe60e195987e62471acbf0dbda85b",
+      "utc": "2026-10-31T22:19:29.349119+00:00"
+    },
+    {
+      "file": "P595.2017.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2363461,
+      "sha256": "96c8b5a4ac341876208759013083f41e41e320a8917bf107f24728da4966411c",
+      "utc": "2026-10-31T22:19:48.061961+00:00"
+    },
+    {
+      "file": "P595.2018.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2352221,
+      "sha256": "9f52125f1df91e5fdd408b729240a93ebd0180a089c2b9893d365fbcc6602462",
+      "utc": "2026-10-31T22:19:48.085680+00:00"
+    },
+    {
+      "file": "P595.2019.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2354955,
+      "sha256": "09e9eee8bcf8726675f1a8a57596c4e20ba176f816cc2b04356b0e6374ba310e",
+      "utc": "2026-10-31T22:19:48.107901+00:00"
+    },
+    {
+      "file": "P595.2020.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2342464,
+      "sha256": "2ef0af005f538d132ead531de2d41c6339ccc0c96c42ed7c8c7e26e850a6a2f9",
+      "utc": "2026-10-31T22:19:48.130612+00:00"
+    },
+    {
+      "file": "P595.2021.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2345108,
+      "sha256": "03ea66ad14404fd854c2f757579785c9e2e92f623b3b53a2cb6d91e6b0c5fe79",
+      "utc": "2026-10-31T22:19:48.154480+00:00"
+    },
+    {
+      "file": "MERS.2020.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2412670,
+      "sha256": "623c9c71cefa9bbf62d767fcbb461db7b813546f467568006df825db18e230fb",
+      "utc": "2026-10-31T22:20:05.480444+00:00"
+    },
+    {
+      "file": "MERS.2021.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2417908,
+      "sha256": "1474c94159d8da8d464e4d4946f8b8a72ce90b44bb1451309ae6972817eea0a5",
+      "utc": "2026-10-31T22:20:05.504731+00:00"
+    },
+    {
+      "file": "MERS.2022.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2399114,
+      "sha256": "a8e4abf980a926bccea18a4d12c4ed585daa5cd1f0a8399d1fffb740ec77b27c",
+      "utc": "2026-10-31T22:20:05.528070+00:00"
+    },
+    {
+      "file": "MERS.2023.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2351503,
+      "sha256": "efee43617346b958b252bc0942ae2007cfd92e014250b0aa7b7ab39770000073",
+      "utc": "2026-10-31T22:20:05.549505+00:00"
+    },
+    {
+      "file": "MERS.2024.trop.zip",
+      "origin": "local_existing_ORIGIN_UNKNOWN",
+      "bytes": 2442884,
+      "sha256": "0a82232960d31c722a5069dbcf6cc34e54eee56fcc8fd8d643fa38efeab6d3f5",
+      "utc": "2026-10-31T22:20:05.571431+00:00"
+    }
+  ],
+  "stations": [
+    {
+      "ev": "2024 Noto (Mw 7.5)",
+      "stn": "TSK2",
+      "lat": 36.06,
+      "lon": 140.09,
+      "dt": "2024-01-01 00:00:00",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "role": "Core",
+      "region": "Japan",
+      "mw": 7.5,
+      "epi": [
+        37.5,
+        137.27,
+        7.5
+      ],
+      "epi_lat": 37.4874,
+      "epi_lon": 137.271,
+      "epi_mag": 7.5,
+      "epi_src": "catalog",
+      "dist_km": 297.02047659390416,
+      "radius_km": 1678.8040181225606
+    },
+    {
+      "ev": "2024 Noto (Mw 7.5)",
+      "stn": "MIZU",
+      "lat": 39.13,
+      "lon": 141.13,
+      "dt": "2024-01-01 00:00:00",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "role": "Core",
+      "region": "Japan",
+      "mw": 7.5,
+      "epi": [
+        37.5,
+        137.27,
+        7.5
+      ],
+      "epi_lat": 37.4874,
+      "epi_lon": 137.271,
+      "epi_mag": 7.5,
+      "epi_src": "catalog",
+      "dist_km": 383.00725842527754,
+      "radius_km": 1678.8040181225606
+    },
+    {
+      "ev": "2024 Hyuga-nada (Mw 7.1)",
+      "stn": "AIRA",
+      "lat": 31.82,
+      "lon": 130.6,
+      "dt": "2024-08-08 00:00:00",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "role": "Core",
+      "region": "Japan",
+      "mw": 7.1,
+      "epi": [
+        31.74,
+        131.53,
+        7.1
+      ],
+      "epi_lat": 31.7599,
+      "epi_lon": 131.5021,
+      "epi_mag": 7.1,
+      "epi_src": "catalog",
+      "dist_km": 85.52247484103769,
+      "radius_km": 1129.7959146727976
+    },
+    {
+      "ev": "2025 Tibet-Nepal (Mw 7.1)",
+      "stn": "IITK",
+      "lat": 26.52,
+      "lon": 80.23,
+      "dt": "2025-01-07 00:00:00",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "role": "Core",
+      "region": "Himalaya",
+      "mw": 7.1,
+      "epi": [
+        28.64,
+        87.36,
+        7.1
+      ],
+      "epi_lat": 28.6036,
+      "epi_lon": 87.3781,
+      "epi_mag": 7.1,
+      "epi_src": "catalog",
+      "dist_km": 741.5820554010293,
+      "radius_km": 1129.7959146727976
+    },
+    {
+      "ev": "2019 Ridgecrest (Mw 7.1)",
+      "stn": "P595",
+      "lat": 35.69,
+      "lon": -117.55,
+      "dt": "2019-07-06 00:00:00",
+      "years": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "role": "Extended",
+      "region": "California",
+      "mw": 7.1,
+      "epi": [
+        35.77,
+        -117.6,
+        7.1
+      ],
+      "epi_lat": 35.7695,
+      "epi_lon": -117.5993333,
+      "epi_mag": 7.1,
+      "epi_src": "catalog",
+      "dist_km": 9.898283606980613,
+      "radius_km": 1129.7959146727976
+    },
+    {
+      "ev": "2023 Turkey (Mw 7.8)",
+      "stn": "MERS",
+      "lat": 36.56,
+      "lon": 34.25,
+      "dt": "2023-02-06 00:00:00",
+      "years": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "role": "Extended",
+      "region": "Anatolia",
+      "mw": 7.8,
+      "epi": [
+        37.17,
+        37.03,
+        7.8
+      ],
+      "epi_lat": 37.2256,
+      "epi_lon": 37.0143,
+      "epi_mag": 7.8,
+      "epi_src": "catalog",
+      "dist_km": 256.7154166434694,
+      "radius_km": 2259.435770220978
+    }
+  ],
+  "script_sha256": "ea8dac3f740a50a0f8f3b43d20c7ca014c22147780c42a060c405dd0f7f073be"
+}

@@ -1,0 +1,2 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2025-01-07T01:05:16.734Z,28.6036,87.3781,10,7.1,mww,315,17,3.458,0.56,us,us6000pi9w,2025-08-11T06:50:22.632Z,"2025 Southern Tibetan Plateau Earthquake",earthquake,8.15,1.74,0.039,63,reviewed,us,us

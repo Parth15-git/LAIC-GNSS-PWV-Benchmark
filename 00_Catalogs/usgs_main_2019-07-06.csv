@@ -1,0 +1,3 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2019-07-06T03:19:53.040Z,35.7695,-117.5993333,8,7.1,mw,77,43,0.04616,0.22,ci,ci38457511,2026-10-19T00:23:41.520Z,"Ridgecrest Earthquake Sequence",earthquake,0.19,31.61,0.028,126,reviewed,ci,ci
+2019-07-07T15:08:40.525Z,0.5126,126.1892,35,6.9,mww,,21,1.205,0.8,us,us70004dz3,2025-12-22T17:54:55.770Z,"136 km WSW of Ternate, Indonesia",earthquake,6.2,1.9,0.043,51,reviewed,us,us

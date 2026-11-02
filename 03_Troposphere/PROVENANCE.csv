@@ -1,0 +1,100 @@
+file,origin,bytes,sha256,utc
+TSK2.2015.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/TSK2/TSK2.2015.trop.zip,2368064,d2cb83e9f0a4e8259b936ac9b61e952d623fd30e3f0b0aa6bee74bbe7b4019cb,2026-11-02T22:04:13.316119+00:00
+TSK2.2016.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/TSK2/TSK2.2016.trop.zip,2354112,03dfa9d9ec74147731c7ab8e17bf4dab31b0373a4d5e52cc968a0068dfa97d40,2026-11-02T22:04:13.333401+00:00
+TSK2.2017.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/TSK2/TSK2.2017.trop.zip,2400637,b6862377cb9e4dfa7060f08989638290c2902db93c271c35a9de62f130ee207b,2026-11-02T22:04:13.347884+00:00
+TSK2.2018.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/TSK2/TSK2.2018.trop.zip,2368821,ad476bf97d05e7f9f98d235f1bc0c1b68c2328a38e6ee0fbe5418bf16840a778,2026-11-02T22:04:13.360486+00:00
+TSK2.2019.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/TSK2/TSK2.2019.trop.zip,2354699,7a6b645557d26efc9ca7c8e6d1b8c08f7afccec6866568e1857cf65e83caf0b3,2026-11-02T22:04:13.373408+00:00
+TSK2.2020.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/TSK2/TSK2.2020.trop.zip,2414735,11948461b5dc449ece02b8d8ff7a2be4f56bf93337bce806682588f8e21c2572,2026-11-02T22:04:13.387379+00:00
+TSK2.2021.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2395145,9d7d5e59cd5ee2006ae6e372fde220e9825e6cb8885e54f0165307cad2a5d28f,2026-11-02T22:04:13.399957+00:00
+TSK2.2022.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2410845,39a37331b6e3205f54bbd03c8818813227114bd543c2e142f6166da1bcae1418,2026-11-02T22:04:13.410701+00:00
+TSK2.2023.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2315587,8b0b6d28c3db07181baf0ab7e5d8b264d87b9b91d946ec571b7446e6a702c61f,2026-11-02T22:04:13.422131+00:00
+TSK2.2024.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2417282,f897dc3d395487071003a38bc296ff3f7d274f0e55fdcdc63e243b1a68a48677,2026-11-02T22:04:13.438922+00:00
+TSK2.2025.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2346478,51307619be55c67553411f1e15921818229ebb47e6da55d7ee49f89d5c823870,2026-11-02T22:04:13.456539+00:00
+MIZU.2015.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/MIZU/MIZU.2015.trop.zip,2425299,ca2a82bddd644351e66f6f99488bf60dd36fd0a53ae70b7d2bacbce1782008f6,2026-11-02T22:04:35.682175+00:00
+MIZU.2016.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/MIZU/MIZU.2016.trop.zip,2406969,f6f263099e07e1a599904ee9f46320560974fb48d42c1cacadef66e25c5c88aa,2026-11-02T22:04:35.692977+00:00
+MIZU.2017.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/MIZU/MIZU.2017.trop.zip,2393205,16698fd19b06fdbf9fc40523f94e0808965df16fa6315ab092887c7e14fe698c,2026-11-02T22:04:35.703668+00:00
+MIZU.2018.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/MIZU/MIZU.2018.trop.zip,2399511,8c8c96ba3bb433c2a71e7bdad3619f902c47ab34373bf82bddf1dfae488a888a,2026-11-02T22:04:35.714772+00:00
+MIZU.2019.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/MIZU/MIZU.2019.trop.zip,2377378,855bd01b9ba50a56e0aa4b3c2b717eec1aedfde2f593499a61d86afd03dd81bf,2026-11-02T22:04:35.725171+00:00
+MIZU.2020.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/MIZU/MIZU.2020.trop.zip,2391240,7374fccae0f7d3f520deb3a5a629f8695ed6260cc382725e88223c1f85e3867b,2026-11-02T22:04:35.735280+00:00
+MIZU.2021.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2408340,ba26e73ecc994895f775df8d9e85a7ce88abe6f41577d446dd7ec2234cb29f4a,2026-11-02T22:04:35.745889+00:00
+MIZU.2022.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2400602,429d1ad6f26a62e16044a974cd536becc7f8703112d6ae02eb4a791fd602793e,2026-11-02T22:04:35.756214+00:00
+MIZU.2023.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2351058,95e562e5f838987d859afa29a26c0ebf62d281941428954dcbd57272241473c0,2026-11-02T22:04:35.766304+00:00
+MIZU.2024.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2425223,fb054a1f0e8d1941626d7562a764d560b0c5cc0ac14c83087421fd8d050fa089,2026-11-02T22:04:35.776562+00:00
+MIZU.2025.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2422974,e60ed6df6ae8effa3b0d606379c0cfb96c771014a9480492362a5aeda6d2f3b6,2026-11-02T22:04:35.786937+00:00
+AIRA.2015.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/AIRA/AIRA.2015.trop.zip,2235101,41f0f1cc6d721c8ff1a8ff48308b1e4e40906e001acd5e204668dfc0f72aecbd,2026-11-02T22:04:48.565981+00:00
+AIRA.2016.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/AIRA/AIRA.2016.trop.zip,2320296,115cbdae19a66dd58acbfbe9e39f48a81f3f82e87d1c16703f81fd12f01bdcd3,2026-11-02T22:04:48.577089+00:00
+AIRA.2017.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/AIRA/AIRA.2017.trop.zip,2341153,1069a457fe473df898e8f55eba4ed710fa7ae4862b6ab0863a8cb045ed09fa81,2026-11-02T22:04:48.587664+00:00
+AIRA.2018.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/AIRA/AIRA.2018.trop.zip,2354255,12757a0c1587a3169fbd97605d69506ca0ad99fc4b7c0228a4f6e3c79bc079a8,2026-11-02T22:04:48.598083+00:00
+AIRA.2019.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/AIRA/AIRA.2019.trop.zip,2285334,19a7aaec061c864c414816fe4522dc29555c80e6ddb5cbf1304de35e0fadb447,2026-11-02T22:04:48.608599+00:00
+AIRA.2020.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/AIRA/AIRA.2020.trop.zip,2388432,4647a4cb4790fd2e144d1cbec65b9d4b7fe1b18e84693973b5737ffb235a01ff,2026-11-02T22:04:48.620562+00:00
+AIRA.2021.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2376968,0ec107aca07c29524d6f065555708ea83b203c5ced841e2b872d95d8ecbb7168,2026-11-02T22:04:48.630457+00:00
+AIRA.2022.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2412490,18cbbecb66fbc76e2e14456f9ac3b36a75a70ed125110c7b19a848d1aee2a0c8,2026-11-02T22:04:48.640367+00:00
+AIRA.2023.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2341861,b260dc7a53a2cddb046f964aa87f582bb0a1e6cffe968ef85112fc4c49625ad3,2026-11-02T22:04:48.650357+00:00
+AIRA.2024.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2415039,8382eb0be97991e6d2a4fe73a2a9812eec713c54ac7b6e6e8d01690acddcc286,2026-11-02T22:04:48.660716+00:00
+AIRA.2025.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2340897,58529cb5c83c745e75dd56c7e63139b1ee7a59eebd1e38218af7c9fead3f9fba,2026-11-02T22:04:48.670816+00:00
+IITK.2015.trop.zip,NOT_AVAILABLE,0,,2026-11-02T22:05:02.787746+00:00
+IITK.2016.trop.zip,NOT_AVAILABLE,0,,2026-11-02T22:05:04.362332+00:00
+IITK.2017.trop.zip,NOT_AVAILABLE,0,,2026-11-02T22:05:06.060129+00:00
+IITK.2018.trop.zip,NOT_AVAILABLE,0,,2026-11-02T22:05:07.639822+00:00
+IITK.2019.trop.zip,NOT_AVAILABLE,0,,2026-11-02T22:05:09.269179+00:00
+IITK.2020.trop.zip,NOT_AVAILABLE,0,,2026-11-02T22:05:10.935742+00:00
+IITK.2021.trop.zip,NOT_AVAILABLE,0,,2026-11-02T22:05:12.595872+00:00
+IITK.2022.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2142383,b017dd61c69378af458dd501b25d620cb37e20391dc5c43aa4579164348707dd,2026-11-02T22:05:12.606848+00:00
+IITK.2023.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),1913423,bdeb8e53bc61f3d4a62f215480c175f88097a6e80545d2deffbd8c3b874b2f2c,2026-11-02T22:05:12.615617+00:00
+IITK.2024.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2135797,d49cc487e2970e24313d8614081da72bed3d0a65d225bf50881aaab66a88c27e,2026-11-02T22:05:12.625893+00:00
+IITK.2025.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2256048,a3aaf3b165e815d0eb0eca7898baef7b8bfbe60e195987e62471acbf0dbda85b,2026-11-02T22:05:12.636213+00:00
+P595.2015.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/P595/P595.2015.trop.zip,2344686,7f69d545d9ac2de9e3a25eb61ce40e652e615844d5c27502ccb764ca4658b732,2026-11-02T22:05:16.883809+00:00
+P595.2016.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/P595/P595.2016.trop.zip,2331861,89ea37e465025de5f043f05d5a096e32e2040b46c7c9e944e3b8fe587fabb8ab,2026-11-02T22:05:16.895692+00:00
+P595.2017.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2363461,96c8b5a4ac341876208759013083f41e41e320a8917bf107f24728da4966411c,2026-11-02T22:05:16.906502+00:00
+P595.2018.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2352221,9f52125f1df91e5fdd408b729240a93ebd0180a089c2b9893d365fbcc6602462,2026-11-02T22:05:16.917003+00:00
+P595.2019.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2354955,09e9eee8bcf8726675f1a8a57596c4e20ba176f816cc2b04356b0e6374ba310e,2026-11-02T22:05:16.927392+00:00
+P595.2020.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2342464,2ef0af005f538d132ead531de2d41c6339ccc0c96c42ed7c8c7e26e850a6a2f9,2026-11-02T22:05:16.937379+00:00
+P595.2021.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2345108,03ea66ad14404fd854c2f757579785c9e2e92f623b3b53a2cb6d91e6b0c5fe79,2026-11-02T22:05:16.947708+00:00
+P595.2022.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/P595/P595.2022.trop.zip,2345501,509553ca830dbf97e14ff95938a92da2cae02ef3c076f528e16578de4a548479,2026-11-02T22:05:16.957721+00:00
+P595.2023.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/P595/P595.2023.trop.zip,2339953,607eb9ec2a59e077474f56151f4c4b2110be9742f4c6c6fba9d1d1995b6e8b73,2026-11-02T22:05:20.651564+00:00
+P595.2024.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/P595/P595.2024.trop.zip,2285937,fa4dad405ede64e2fcc8939f4cfcd35a37b76e57918ecae433c94598dccde0ec,2026-11-02T22:05:24.264800+00:00
+P595.2025.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/P595/P595.2025.trop.zip,2264029,d25ea801505b2b3cc4022963d1e27bce5c29e6bffae59f6bb63e87760299cc9e,2026-11-02T22:05:28.333162+00:00
+MERS.2015.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/MERS/MERS.2015.trop.zip,1572818,63cef62a1cd11d935bd13b161ab48b606cf4af9b606dad55c7c3b537b121e264,2026-11-02T22:05:53.126089+00:00
+MERS.2016.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/MERS/MERS.2016.trop.zip,1735084,c89636fa899f63b054147a95c55c587dcac7278ed073f32ea248506fa4235e92,2026-11-02T22:05:53.136580+00:00
+MERS.2017.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/MERS/MERS.2017.trop.zip,2326723,d9e300d75bb9c1cd613d57ccd6f367ee6441bfc94eba283a7fe3fe2ed377e1f3,2026-11-02T22:05:53.147114+00:00
+MERS.2018.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/MERS/MERS.2018.trop.zip,2099042,772416959f3845c703698c942055b9bf9f983995820aa63f96a5dd68b2b817bc,2026-11-02T22:05:53.156905+00:00
+MERS.2019.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/MERS/MERS.2019.trop.zip,2363067,fc006d0f66fb17ef2a09363f2a0bffc0e9a1606ddf320b67dc99906b355a49d4,2026-11-02T22:05:53.166742+00:00
+MERS.2020.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2412670,623c9c71cefa9bbf62d767fcbb461db7b813546f467568006df825db18e230fb,2026-11-02T22:05:53.177242+00:00
+MERS.2021.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2417908,1474c94159d8da8d464e4d4946f8b8a72ce90b44bb1451309ae6972817eea0a5,2026-11-02T22:05:53.187471+00:00
+MERS.2022.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2399114,a8e4abf980a926bccea18a4d12c4ed585daa5cd1f0a8399d1fffb740ec77b27c,2026-11-02T22:05:53.197741+00:00
+MERS.2023.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2351503,efee43617346b958b252bc0942ae2007cfd92e014250b0aa7b7ab39770000073,2026-11-02T22:05:53.208253+00:00
+MERS.2024.trop.zip,local_unverified (relabelled: the old 'verified_local' label was not a real check),2442884,0a82232960d31c722a5069dbcf6cc34e54eee56fcc8fd8d643fa38efeab6d3f5,2026-11-02T22:05:53.220843+00:00
+MERS.2025.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/MERS/MERS.2025.trop.zip,1919855,ba403b3b657060e4274d336e50e97df60e35a1a656b556b770258be7a7da79af,2026-11-02T22:05:56.186777+00:00
+USUD.2015.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/USUD/USUD.2015.trop.zip,2379218,84c684b575c53c21d4e414ce44008e474e6abb2ad413ad06076553dd088d7061,2026-11-02T22:06:33.077511+00:00
+USUD.2016.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/USUD/USUD.2016.trop.zip,2372265,f20ed6c7949db0fcd5fc0ae826f2775a012b0b539bbe880bb84f1ed59ffb80f0,2026-11-02T22:06:35.975168+00:00
+USUD.2017.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/USUD/USUD.2017.trop.zip,2364249,612601dd0a22c8e86a80f15b3b1976ea38f0bd667353d5c10b06b5378b11b832,2026-11-02T22:06:39.003040+00:00
+USUD.2018.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/USUD/USUD.2018.trop.zip,2376673,5bf0b5bf276c6c2d5671ef51c1d8ad552009a49582e42017a77062367f005497,2026-11-02T22:06:41.634398+00:00
+USUD.2019.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/USUD/USUD.2019.trop.zip,2235582,241004270ecb3ceb89f8465e1c4821281d87e82bbb1f478748f053a05e01f907,2026-11-02T22:06:44.683859+00:00
+USUD.2020.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/USUD/USUD.2020.trop.zip,2393107,bdfcd5c806c39149ebbce6c1f512273c9f8a9b22cd5475026a50cae26df84c75,2026-11-02T22:06:47.592428+00:00
+USUD.2021.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/USUD/USUD.2021.trop.zip,2382307,bd2ed880dd9329ee37a0eb73cd4db8ec5a27fb8ff089dbc1dcd1a8e59f1f17c8,2026-11-02T22:06:47.600718+00:00
+USUD.2022.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/USUD/USUD.2022.trop.zip,2379378,b1d84e3a6a5fe89cef73a19caff5580e3272c00e1f119e0d98cef94e4af816dc,2026-11-02T22:06:47.609171+00:00
+USUD.2023.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/USUD/USUD.2023.trop.zip,2370861,43890820f99fab480e3404e44eeaf8bdad827a910431d2932c9e39a5bc38ad2a,2026-11-02T22:06:47.617749+00:00
+USUD.2024.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/USUD/USUD.2024.trop.zip,2375977,2adbc85988f9d424b6d7f200a98972894238b8c8e476d984d36d508fb4bac6e2,2026-11-02T22:06:47.627180+00:00
+USUD.2025.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/USUD/USUD.2025.trop.zip,2372623,9537a5b87870f5150d13d6f2e74b7d396dde502e8d9c32ae0e937b2145c20796,2026-11-02T22:06:53.357408+00:00
+TWTF.2015.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/TWTF/TWTF.2015.trop.zip,1221125,476a1a33f264d5fbee091ed70e875290403c4af1988d4f141d3933ae91d96c49,2026-11-02T22:07:07.272799+00:00
+TWTF.2016.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/TWTF/TWTF.2016.trop.zip,2318726,9a60625d0deee749768f7c0459f031071ef9ce211e2d8b377aceb48b46d495f8,2026-11-02T22:07:10.248099+00:00
+TWTF.2017.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/TWTF/TWTF.2017.trop.zip,2295250,4e9cef4cae1c0362e5c65704925b2ec2080b6e53b47e850a08734b14bf35120f,2026-11-02T22:07:13.413054+00:00
+TWTF.2018.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/TWTF/TWTF.2018.trop.zip,2384541,23249fe8ab51be973777d2e72642e41b1f00cd0ab907a9ada224acba67583502,2026-11-02T22:07:16.597339+00:00
+TWTF.2019.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/TWTF/TWTF.2019.trop.zip,2385254,2f052118ec737d9cb932946b0dac7b275b4eb7e3a0a179b1f95e4c7c6c0a3859,2026-11-02T22:07:19.745860+00:00
+TWTF.2020.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/TWTF/TWTF.2020.trop.zip,2286629,2c9a21e5515697d5edb514b48ffdcb6a435cc96915742a019eb8a3b0161bfa7b,2026-11-02T22:07:22.958936+00:00
+TWTF.2021.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/TWTF/TWTF.2021.trop.zip,2405429,583cbd3562b12185d216f4908522b079d726ef4cc5b8f585cbf7d6adcfc58f43,2026-11-02T22:07:22.967524+00:00
+TWTF.2022.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/TWTF/TWTF.2022.trop.zip,2393498,6123a0075dc444483a39c4b856366bc86c6147e3742cb2580bb83466cc0fac86,2026-11-02T22:07:22.976044+00:00
+TWTF.2023.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/TWTF/TWTF.2023.trop.zip,2349846,c0a65f7ab7c11abd4369aabf346da7f77f99eabc042e15493913c2171dc53805,2026-11-02T22:07:22.984372+00:00
+TWTF.2024.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/TWTF/TWTF.2024.trop.zip,2393389,68218f9ea6cfa8ffdf1f5d7155815ee5c334601926f3d601a7c96bddd680e596,2026-11-02T22:07:22.992856+00:00
+TWTF.2025.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/TWTF/TWTF.2025.trop.zip,2405331,522f709e868b107701a69c35ac8ae6eedadc5f83a9fc6c0dc9ebdc568f67f935,2026-11-02T22:07:26.085127+00:00
+GUAM.2015.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/GUAM/GUAM.2015.trop.zip,2398495,f37b638f710c27779caeaa01d38191f1baf6057f3ae7d4260874ae108bcd21f7,2026-11-02T22:07:47.199529+00:00
+GUAM.2016.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/GUAM/GUAM.2016.trop.zip,2400753,fc59a5d7a2759d439c38d1918198d77ee2757696903537bc5b05a2fafe157174,2026-11-02T22:07:50.411339+00:00
+GUAM.2017.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/GUAM/GUAM.2017.trop.zip,2411460,051e0fcd62ab17d08413b8834b2bc18efa259a22bd4ae15a1baa47a99eddc665,2026-11-02T22:07:53.112562+00:00
+GUAM.2018.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/GUAM/GUAM.2018.trop.zip,2367339,2f2b5ee14b95d54404693770911f1d3cce68fd1ec0373d74d181e278d04307c0,2026-11-02T22:07:56.597532+00:00
+GUAM.2019.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/GUAM/GUAM.2019.trop.zip,1698632,29c232fefe59675b740c1d8d4e2cc5fc3ad2a6e14b8fcfd2df2ad9e676676af5,2026-11-02T22:08:02.220924+00:00
+GUAM.2020.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/GUAM/GUAM.2020.trop.zip,2416474,533c2fc18404ef6dafa11bb830ec4b69759b0a93476ec70743d8f56112222342,2026-11-02T22:08:06.395726+00:00
+GUAM.2021.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/GUAM/GUAM.2021.trop.zip,1357950,6ede61a00728abfacd3df44bf7eff2574c24ee8a209f564ee18ed7be8770ab12,2026-11-02T22:08:06.418662+00:00
+GUAM.2022.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/GUAM/GUAM.2022.trop.zip,2248477,a6bf7e824c934113f67f5f52f0bc75403813716b72dc1a5c568ff4792441037c,2026-11-02T22:08:06.427049+00:00
+GUAM.2023.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/GUAM/GUAM.2023.trop.zip,2363290,37c97d88f0d979e8c789f1809e9a8dc510c74ff16d658504deb306db9d8d436c,2026-11-02T22:08:06.435433+00:00
+GUAM.2024.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/GUAM/GUAM.2024.trop.zip,2443813,539265737f3c7cd88fa47e713f72a7ff54a9cf870d3c83f74317e5704b9774db,2026-11-02T22:08:06.444288+00:00
+GUAM.2025.trop.zip,https://geodesy.unr.edu/gps_timeseries/IGS20/trop/GUAM/GUAM.2025.trop.zip,2413847,3b278885d185e218b6f496d1cabf47c4e39dd49a9775debd0aea5150091a80d1,2026-11-02T22:08:09.405009+00:00

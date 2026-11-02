@@ -1,0 +1,17 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2016-03-28T00:12:54.690Z,30.2073,-114.3078,10,5.5,mww,,107,0.95,0.94,us,us20005ct5,2022-05-03T17:43:27.750Z,"103 km SSE of San Felipe, Mexico",earthquake,4.5,1.8,,,reviewed,us,us
+2016-12-28T08:18:00.613Z,38.3755,-118.8989,11.3,5.6,ml,37,35.89,0.133,0.1599,nn,nn00570709,2025-12-04T17:27:50.612Z,"29 km SW of Hawthorne, Nevada",earthquake,,1,0.35,20,reviewed,nn,nn
+2016-12-28T08:22:12.208Z,38.3904,-118.8972,12.2,5.6,ml,43,42.44,0.123,0.1913,nn,nn00570710,2022-05-03T18:07:18.115Z,"28 km WSW of Hawthorne, Nevada",earthquake,,1.2,0.32,18,reviewed,nn,nn
+2016-12-28T09:13:47.243Z,38.3777,-118.8957,8.8,5.5,ml,33,48.58,0.129,0.2187,nn,nn00570744,2023-02-06T19:24:50.549Z,"28 km SW of Hawthorne, Nevada",earthquake,,2,0.26,18,reviewed,nn,nn
+2019-06-23T03:53:02.890Z,40.2735,-124.3003333,9.44,5.58,mw,34,159,0.03116,0.17,nc,nc73201181,2025-12-22T18:11:57.978Z,"6km SSW of Petrolia, CA",earthquake,0.34,0.21,,6,reviewed,nc,nc
+2019-07-04T17:33:49.000Z,35.7053333,-117.5038333,10.5,6.4,mw,62,47,0.1233,0.16,ci,ci38443183,2025-12-22T18:14:43.508Z,"Ridgecrest Earthquake Sequence",earthquake,0.15,0.36,,6,reviewed,ci,ci
+2019-07-06T03:19:53.040Z,35.7695,-117.5993333,8,7.1,mw,77,43,0.04616,0.22,ci,ci38457511,2026-10-19T00:23:41.520Z,"Ridgecrest Earthquake Sequence",earthquake,0.19,31.61,0.028,126,reviewed,ci,ci
+2019-07-06T03:47:53.420Z,35.9011667,-117.7495,5.04,5.5,mw,49,33,0.07334,0.16,ci,ci38457687,2025-12-22T18:17:37.984Z,"15km ESE of Little Lake, CA",earthquake,0.13,0.5,,4,reviewed,ci,ci
+2020-03-18T13:09:31.530Z,40.751,-112.0783333,11.9,5.7,mw,54,50,0.04022,0.2,uu,uu60363602,2026-07-31T06:30:29.804Z,"5 km NNE of Magna, Utah",earthquake,0.3,0.39,,0,reviewed,uu,uu
+2020-05-15T11:03:27.176Z,38.1689,-117.8497,2.7,6.5,ml,27,55.79,0.357,0.2669,nn,nn00725272,2026-02-07T06:51:51.057Z,"Monte Cristo Range, NV Earthquake",earthquake,,2.1,,,reviewed,nn,nn
+2020-06-04T01:32:11.140Z,35.6148333,-117.4281667,8.44,5.51,mw,85,45,0.0396,0.21,ci,ci39462536,2025-12-22T18:35:26.599Z,"17km S of Searles Valley, CA",earthquake,0.15,0.45,,6,reviewed,ci,ci
+2020-06-24T17:40:49.240Z,36.4468333,-117.9751667,4.66,5.8,mw,48,67,0.08494,0.19,ci,ci39493944,2025-12-22T17:57:54.818Z,"18km SSE of Lone Pine, CA",earthquake,0.18,0.66,,6,reviewed,ci,ci
+2021-07-08T22:49:48.110Z,38.5075,-119.4998333,7.45,6,mw,42,100,0.04846,0.06,nc,nc73584926,2026-04-25T19:17:25.964Z,"Antelope Valley, CA",earthquake,0.14,0.25,,0,reviewed,nc,nc
+2021-12-20T20:10:31.310Z,40.3901667,-124.298,27.04,6.2,mw,33,170,0.06557,0.13,nc,nc73666231,2025-12-22T22:24:46.020Z,"7km N of Petrolia, CA",earthquake,0.46,0.34,,0,reviewed,nc,nc
+2022-11-22T16:39:05.789Z,30.7936,-116.3907,10,6.2,mww,164,61,0.494,0.75,us,us7000irjd,2023-03-30T07:15:48.466Z,"28 km SW of Las Brisas, Mexico",earthquake,4.14,1.745,0.029,118,reviewed,us,us
+2024-12-09T23:08:31.577Z,39.1675,-119.0238,8,5.71,mwr,30,105,0.248,0.1163,nn,nn00888580,2026-07-17T16:57:32.978Z,"2024 Parker Butte, Nevada Earthquake",earthquake,,2.3971,,,reviewed,nn,nn

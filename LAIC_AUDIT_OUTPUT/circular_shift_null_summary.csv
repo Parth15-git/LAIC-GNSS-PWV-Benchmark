@@ -1,0 +1,2 @@
+analysis_days,non_observed_shift_combinations,observed_alert_days_full_period,observed_alert_days_pre_event_window,fraction_null_shifts_with_any_pre_event_alert,fraction_null_shifts_with_at_least_observed_full_period_count,fraction_null_shifts_with_at_least_observed_pre_event_count,interpretation
+36,1295,0,0,0.0,1.0,1.0,Exploratory circular-shift diagnostic only; an observed zero-hit window yields a trivial p-like comparison and is not evidence of specificity.

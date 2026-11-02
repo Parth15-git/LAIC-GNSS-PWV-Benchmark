@@ -1,0 +1,19 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2015-04-25T06:11:25.950Z,28.2305,84.7314,8.22,7.8,mww,,12,1.857,0.96,us,us20002926,2025-08-07T10:31:11.955Z,"67 km NNE of Bharatpur, Nepal",earthquake,7.3,2.9,,,reviewed,us,us
+2015-04-25T06:15:22.910Z,27.6285,85.5398,10,6.1,mb,,43,1.173,1.02,us,us20002bi4,2024-06-16T23:45:44.729Z,"0 km NNW of Dhulikhel, Nepal",earthquake,8,1.8,0.089,48,reviewed,us,us
+2015-04-25T06:18:10.870Z,27.6857,86.0213,10,5.6,mb,,42,0.751,0.76,us,us20002bi0,2024-06-16T23:45:39.737Z,"31 km SSE of Kod?ri??, Nepal",earthquake,7.4,1.9,0.109,30,reviewed,us,us
+2015-04-25T06:45:21.320Z,28.2244,84.8216,10,6.6,mww,,16,1.778,0.64,us,us2000292y,2025-02-22T05:33:18.829Z,"71 km NNE of Bharatpur, Nepal",earthquake,7.4,1.7,,,reviewed,us,us
+2015-04-25T06:56:33.860Z,27.8822,85.7505,10,5.5,mb,,39,0.942,0.65,us,us20002934,2022-07-31T01:12:49.171Z,"22 km WSW of Kod?ri??, Nepal",earthquake,3,1.8,0.053,123,reviewed,us,us
+2015-04-25T09:17:02.310Z,28.3902,87.3173,10,5.7,mb,,22,0.619,0.7,us,us2000294g,2022-07-31T01:17:38.200Z,"69 km NE of Lobujya, Nepal",earthquake,5.8,1.4,0.033,328,reviewed,us,us
+2015-04-26T07:09:10.670Z,27.7711,86.0173,22.91,6.7,mww,,13,0.727,0.86,us,us200029bt,2025-02-22T05:38:38.490Z,"21 km SSE of Kod?ri??, Nepal",earthquake,6.6,2.9,,,reviewed,us,us
+2015-05-12T07:05:19.730Z,27.8087,86.0655,15,7.3,mww,,11,0.677,0.92,us,us20002ejl,2024-06-26T05:18:41.027Z,"Nepal",earthquake,7.4,1.7,,,reviewed,us,us
+2015-05-12T07:17:20.640Z,27.7141,86.2177,13.01,5.5,mb,,66,0.579,0.89,us,us20002ek0,2022-07-31T05:58:33.083Z,"37 km SE of Kod?ri??, Nepal",earthquake,6.8,4.7,0.043,183,reviewed,us,us
+2015-05-12T07:36:54.490Z,27.625,86.1617,15,6.3,mww,,10,0.664,0.93,us,us20002ek5,2022-07-31T05:59:39.785Z,"42 km SSE of Kod?ri??, Nepal",earthquake,7.5,1.7,,,reviewed,us,us
+2015-05-16T11:34:09.980Z,27.5603,86.0734,7,5.5,mww,,13,4.928,0.72,us,us100029rn,2022-07-31T07:18:14.026Z,"45 km SSE of Kod?ri??, Nepal",earthquake,7.5,1.7,,,reviewed,us,us
+2020-03-20T01:33:15.443Z,28.5896,87.3081,10,5.7,mww,,18,0.766,1.02,us,us70008cld,2025-12-22T18:31:23.016Z,"85 km NE of Lobujya, Nepal",earthquake,5.7,1.7,0.063,24,reviewed,us,us
+2022-11-08T20:27:22.316Z,29.2917,81.1593,11,5.7,mww,268,13,3.917,0.69,us,us7000incn,2023-01-21T19:27:15.040Z,"Nepal",earthquake,6.94,1.653,0.057,30,reviewed,us,us
+2023-10-03T09:21:03.018Z,29.4973,81.242,13,5.7,mww,226,23,3.93,0.33,us,us6000lcgj,2023-12-14T21:26:51.040Z,"39 km NE of Dipayal, Nepal",earthquake,4.47,1.784,0.052,36,reviewed,us,us
+2023-11-03T18:02:53.465Z,28.858,82.1531,12,5.7,mww,232,21,2.95,0.94,us,us7000l8p5,2024-01-10T06:01:50.040Z,"43 km E of Dailekh, Nepal",earthquake,5.99,1.688,0.06,27,reviewed,us,us
+2024-04-13T05:44:39.593Z,33.5479,81.8672,10,5.5,mww,209,25,6.438,0.59,us,us7000mbuv,2024-06-17T02:15:21.040Z,"western Xizang",earthquake,7.97,1.846,0.066,22,reviewed,us,us
+2025-01-07T01:05:16.734Z,28.6036,87.3781,10,7.1,mww,315,17,3.458,0.56,us,us6000pi9w,2025-08-11T06:50:22.632Z,"2025 Southern Tibetan Plateau Earthquake",earthquake,8.15,1.74,0.039,63,reviewed,us,us
+2025-05-11T21:11:22.060Z,29.0536,87.6068,9,5.5,mww,151,22,2.401,0.67,us,us7000pyq7,2025-07-24T21:30:14.040Z,"126 km W of Rikaze, China",earthquake,8.15,1.787,0.08,15,reviewed,us,us

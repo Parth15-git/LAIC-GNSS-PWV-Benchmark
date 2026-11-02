@@ -1,0 +1,3 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2024-01-01T07:10:09.476Z,37.4874,137.271,10,7.5,mww,282,36,0.957,0.55,us,us6000m0xl,2026-10-30T17:01:15.934Z,"2024 Noto Peninsula, Japan Earthquake",earthquake,4.03,1.807,0.034,82,reviewed,us,us
+2024-01-01T07:18:41.584Z,37.1895,136.8272,10,6.2,mb,185,32,1.278,0.4,us,us6000m0xm,2025-01-04T22:53:01.431Z,"8 km SW of Anamizu, Japan",earthquake,1.95,1.794,0.024,672,reviewed,us,us

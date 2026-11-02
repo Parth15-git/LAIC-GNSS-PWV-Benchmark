@@ -1,0 +1,4 @@
+site_or_map_coordinate,latitude_deg,longitude_deg,distance_from_USGS_epicenter_km,Dobrovolsky_formula_radius_km_for_M7_1,inside_formula_radius,interpretation
+IITK GNSS station,26.521416666666667,80.2321388888889,741.33,1129.8,True,independent ground GNSS troposphere station; not a local epicentral station
+Dhanbad map coordinate,23.81,86.44,541.21,1129.8,True,GIM interpolation only; not processed CORS/RINEX data in this archive
+West control map coordinate,28.5,65.0,2182.52,1129.8,False,"GIM interpolation only; same global map, not a station and not proven magnetic conjugate"

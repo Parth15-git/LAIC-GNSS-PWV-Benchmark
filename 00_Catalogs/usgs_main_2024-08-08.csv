@@ -1,0 +1,2 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2024-08-08T07:42:55.206Z,31.7599,131.5021,24,7.1,mww,252,34,5.748,0.74,us,us6000nith,2025-09-08T03:47:56.356Z,"2024 Hyuganada Sea, Japan Earthquake",earthquake,6.71,1.855,0.031,99,reviewed,us,us

@@ -1,0 +1,20 @@
+# Ignore local draft archive and Python cache
+_archive_drafts/
+prepare_github_repo.py
+__pycache__/
+*.pyc
+
+# Ignore heavy NGL .trop.zip binaries (fetched & SHA-256 verified by step13)
+03_Troposphere/*.trop.zip
+03_Troposphere/*.part
+
+# Keep provenance records tracked
+!03_Troposphere/PROVENANCE.csv
+!03_Troposphere/VERIFIED_ORIGINS.json
+
+# Ignore large local caches & temporary folders
+01_SpaceWeather/
+02_IONEX/
+04_Gas_S5P/
+05_Local_ERA5_Cache/
+*.docx

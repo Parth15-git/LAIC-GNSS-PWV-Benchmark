@@ -1,0 +1,2 @@
+variable,daily_values_in_window,window_days,valid_day_percent,minimum_daily_observations,median_daily_observations,maximum_daily_observations,minimum_daily_PWV_mm,median_daily_PWV_mm,maximum_daily_PWV_mm
+IITK_PWV_mm,33,36,91.67,288,288.0,288,5.014201388888889,10.866805555555555,28.66274305555556

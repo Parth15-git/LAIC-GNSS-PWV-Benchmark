@@ -1,0 +1,29 @@
+{
+  "detection_rule": {
+    "window_length_days": 10,
+    "min_hit_days": 2,
+    "target_quiet_far": 0.05,
+    "stations": {
+      "IITK": {
+        "k_star": 3.5,
+        "quiet_far": 0.14615384615384616,
+        "quiet_window_count": 130
+      },
+      "TSK2": {
+        "k_star": 3.4000000000000004,
+        "quiet_far": 0.19444444444444445,
+        "quiet_window_count": 144
+      },
+      "MIZU": {
+        "k_star": 3.45,
+        "quiet_far": 0.15217391304347827,
+        "quiet_window_count": 138
+      },
+      "AIRA": {
+        "k_star": 3.4000000000000004,
+        "quiet_far": 0.2077922077922078,
+        "quiet_window_count": 154
+      }
+    }
+  }
+}

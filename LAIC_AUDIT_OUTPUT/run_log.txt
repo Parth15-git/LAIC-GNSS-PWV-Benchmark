@@ -1,0 +1,40 @@
+LAIC audit run completed.
+Data root: C:\Users\parth\Downloads\LAIC_Paper
+Output: C:\Users\parth\Downloads\LAIC_Paper\LAIC_AUDIT_OUTPUT
+Event origin UTC: 2025-01-07 01:05:16
+Analysis rows: 36
+Satellite gas valid days: variable  valid_daily_values  valid_day_percent  negative_daily_values
+      CO                  36             100.00                      0
+     SO2                  36             100.00                     10
+     NO2                  36             100.00                      0
+     CH4                  23              63.89                      0
+
+GNSS quality:    variable  daily_values_in_window  window_days  valid_day_percent  minimum_daily_observations  median_daily_observations  maximum_daily_observations  minimum_daily_PWV_mm  median_daily_PWV_mm  maximum_daily_PWV_mm
+IITK_PWV_mm                      33           36              91.67                         288                      288.0                         288              5.014201            10.866806             28.662743
+
+OMNI metadata: {
+  "files": [
+    "omni2_87AQOnb8Dw.lst"
+  ],
+  "hourly_rows_in_analysis_window": 864,
+  "daily_rows": 36,
+  "column_mapping_note": "Kp*10 code, Dst and F10.7 appear at the final three data columns; archive lacks a .fmt sidecar, so verify original OMNIWeb selection metadata before journal submission."
+}
+
+IONEX metadata: {
+  "files_used": 36,
+  "maps_parsed_in_files_including_overlapping_midnights": 900,
+  "unique_map_epochs": 864,
+  "daily_rows": 36,
+  "within_window_map_epochs": 864,
+  "spatial_interpolation": "bilinear from CODE global ionosphere map (GIM); query latitudes converted approximately to geocentric latitude at 6821-km shell; not independent local/CORS observations",
+  "daily_summary": "maximum of the hourly interpolated GIM value, not an hourly-station measurement",
+  "coordinate_note": "The supplied CODE file describes a spherical shell radius of 6821 km and geocentric IONEX latitudes."
+}
+
+Primary candidate alert days: []
+Pre-event window candidate alert days: 0
+Circular-shift summary:  analysis_days  non_observed_shift_combinations  observed_alert_days_full_period  observed_alert_days_pre_event_window  fraction_null_shifts_with_any_pre_event_alert  fraction_null_shifts_with_at_least_observed_full_period_count  fraction_null_shifts_with_at_least_observed_pre_event_count                                                                                                                                 interpretation
+            36                             1295                                0                                     0                                            0.0                                                            1.0                                                          1.0 Exploratory circular-shift diagnostic only; an observed zero-hit window yields a trivial p-like comparison and is not evidence of specificity.
+
+This is a retrospective exploratory analysis, not a validated precursor detector.
